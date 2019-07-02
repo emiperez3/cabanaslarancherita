@@ -3,5 +3,9 @@ function goToInfoScreen() {
 }
 
 function goToHomeScreen() {
-  window.location = "index.html";
+  window.location = "home.html";
+}
+
+function goToContactScreen() {
+  window.location = "contacto.html";
 }
