@@ -1,5 +1,5 @@
-function goToInfoScreen() {
-  window.location = "info.html";
+function goToServicesScreen() {
+  window.location = "servicios.html";
 }
 
 function goToHomeScreen() {
@@ -8,4 +8,8 @@ function goToHomeScreen() {
 
 function goToContactScreen() {
   window.location = "contacto.html";
+}
+
+function goToCabanasScreen() {
+  window.location = "cabanas.html";
 }

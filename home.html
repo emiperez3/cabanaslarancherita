@@ -1,19 +1,59 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Cabañas La Rancherita - Home</title>
-		<script src="js/navigation.js"></script>
-	</head>
-	<body>
-		<h1>Cabañas La Rancherita</h1>
-		<button onclick="goToInfoScreen()">Información</button>
-		<button onclick="goToContactScreen()">Contacto</button>
-	</body>
+    <head>
+        <title>La Rancherita Cabañas - Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="js/sliderFotos.js" defer></script>
+        <script src="js/navigation.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="css/SliderFotos.css">
+    </head>
+    <body>
+        <!-- Header con contacto -->
+        <div>
+            
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="w3-bar w3-black">
+            <button onclick="goToContactScreen()" class="w3-button w3-bar-item" style="float: right;">Contacto</button>
+            <button onclick="goToServicesScreen()" class="w3-button w3-bar-item" style="float: right;">Servicios</button>
+            <button onclick="goToCabanasScreen()" class="w3-button w3-bar-item" style="float: right;">Cabañas</button>
+            <button onclick="goToHomeScreen()" class="w3-button w3-bar-item" style="float: right;">Inicio</button>           
+        </nav>
+        
+        <!-- Carrusel de imágenes -->
+        <div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/home/foto1.jpg" style="width:100%; height: 500px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/home/foto2.jpg" style="width:100%; height: 500px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/home/foto3.jpg" style="width:100%; height: 500px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/home/foto4.jpg" style="width:100%; height: 500px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/home/foto5.jpg" style="width:100%; height: 500px">
+                </div>
+
+                <!-- Botones de Previo y Siguiente -->
+                <a class="prev" onclick="showPreviousSlide()">&#10094;</a>
+                <a class="next" onclick="showNextSlide()">&#10095;</a>
+            </div>
+
+            <!-- Puntos -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </body>
 </html>
-
-
-
-
-
-
