@@ -1,5 +1,22 @@
 /* Verde principal: #3AA935 */
 
+h1 {
+  color: #FFFFFF;
+  font-size: bold;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+li {
+  color: #FFFFFF;
+}
+
+.texto {
+  color: #FFFFFF;
+}
+
 .nota {
   font-size: 12px;
 }
