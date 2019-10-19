@@ -1,4 +1,15 @@
+/* Verde principal: #3AA935 */
+
 .nota {
   font-size: 12px;
 }
 
+.infoContacto > p {
+  font-weight: bold;
+  color: #3AA935;
+}
+
+.contenidoItem {
+  font-weight: normal;
+  color: #000000;
+}
