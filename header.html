@@ -4,20 +4,29 @@
 		<meta charset="UTF-8">
 		<title>Cabañas La Rancherita</title>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="css/Header.css">
 	</head>
 	<body>
-		<!-- Header con contacto -->
-        <div>
+		<!-- Info de contacto -->
+        <div class="container">
             
         </div>
         
-        <!-- Navigation -->
-        <nav class="w3-bar w3-black">
-            <button onclick="goToContactScreen()" class="w3-button w3-bar-item" style="float: right;">Contacto</button>
-            <button onclick="goToServicesScreen()" class="w3-button w3-bar-item" style="float: right;">Servicios</button>
-            <button onclick="goToCabanasScreen()" class="w3-button w3-bar-item" style="float: right;">Cabañas</button>
-            <button onclick="goToHomeScreen()" class="w3-button w3-bar-item" style="float: right;">Inicio</button>           
-        </nav>
+        <!-- Logo y nav -->
+        <div class="container">
+            <!-- Logo -->
+            <div class="headerLogo">
+                <img class="logo" src="images/logo.png" width="120px" height="100px">
+            </div>
+
+            <!-- Navigation -->
+            <nav class="headerNav">
+                <button onclick="goToContactScreen()" class="w3-button w3-bar-item button" style="float: right;">Contacto</button>
+                <button onclick="goToServicesScreen()" class="w3-button w3-bar-item button" style="float: right;">Servicios</button>
+                <button onclick="goToCabanasScreen()" class="w3-button w3-bar-item button" style="float: right;">Cabañas</button>
+                <button onclick="goToHomeScreen()" class="w3-button w3-bar-item button" style="float: right;">Inicio</button>           
+            </nav>
+        </div>
 	</body>
 </html>
 

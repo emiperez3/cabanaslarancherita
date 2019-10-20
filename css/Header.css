@@ -1,0 +1,38 @@
+body {
+	background-color: #000
+}
+
+.container {
+	overflow:hidden;
+	align-content: center;
+}
+
+.logo {
+	object-fit: contain;
+}
+
+.headerLogo {
+	padding-left: 20px;
+    float: left;
+    width: 20%;
+}
+
+.headerNav {
+	padding-right: 20px;
+	float: right;
+    color: #FFF;
+    width: 80%;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.button {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.button:hover {
+	color: #FFF !important;
+	background-color: #3AA935 !important;
+}
